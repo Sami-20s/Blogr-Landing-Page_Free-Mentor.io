@@ -1,0 +1,42 @@
+@media screen and (min-width: 601px) {
+    article {
+        #section-1 {
+            overflow: hidden;
+            padding-top: 160px;
+            h2 {
+                font-size: 40px;
+                padding-bottom: 20px;
+            }
+            .section-1__wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 110px;
+                &__img {
+                    top: 70px;
+                    position: absolute;
+                    right: 0;
+                    transform: translateX(240px);
+                    img {
+                        width: unset;
+                        height: 885px;
+                    }
+                }
+                &__des {
+                    width: 700px;
+                    padding-right: 90px;
+                    h3 {
+                        text-align: left;
+                        max-width: unset;
+                    }
+                    p {
+                        font-size: 19px;
+                        text-align: left;
+                        max-width: unset;
+                    }
+                }
+            }
+        }
+    }
+}

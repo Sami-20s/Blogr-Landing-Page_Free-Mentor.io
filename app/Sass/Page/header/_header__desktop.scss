@@ -1,0 +1,19 @@
+@media screen and (min-width: 610px) {
+    header {
+        .header__content {
+            padding-top: 120px;
+            &__heading {
+                h1 {
+                    max-width: fit-content;
+                    font-size: 50px;
+                }
+                p {
+                    max-width: fit-content;
+                }
+            }
+            &__buttons {
+                padding-top: 51px;
+            }
+        }
+    }
+}
