@@ -1,0 +1,36 @@
+#section-3 {
+    margin-bottom: 130px;
+    .section-3__wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        &__image {
+            padding-top: 75px;
+            img {
+                width: 96vw;
+            }
+        }
+        &__des {
+            h3 {
+                color: $veryDarkBlue;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 30px;
+            }
+            p {
+                max-width: 82vw;
+                margin: 0 auto;
+                padding-top: 36px;
+                color: $veryGrayishBlue;
+                font-size: 22px;
+                line-height: 1.8;
+                text-align: center;
+                &:not(:last-child) {
+                    margin-bottom: 38px;
+                }
+            }
+        }
+    }
+}

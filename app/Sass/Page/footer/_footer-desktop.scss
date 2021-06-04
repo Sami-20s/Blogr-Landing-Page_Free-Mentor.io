@@ -1,0 +1,33 @@
+@media screen and (min-width: 610px) {
+    footer#footer {
+        .footer__wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: unset;
+            align-items: center;
+            border-radius: 0 130px 0 0;
+            padding: 70px 165px 0;
+            &__logo {
+                align-self: baseline;
+                margin: 0;
+                margin-right: 175px;
+            }
+            &__des {
+                display: flex;
+                h4 {
+                    text-align: left;
+                }
+                &__links {
+                    padding-top: 20px;
+                    a {
+                        margin-right: auto;
+                    }
+                    &:not(:last-child) {
+                        margin-right: 229px;
+                    }
+                }
+            }
+        }
+    }
+}
